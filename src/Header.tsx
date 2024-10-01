@@ -1,4 +1,9 @@
-export function Header()
+interface Header
 {
-    return <h1>Fűszeres Chai recept!</h1>
+    title: string
+}
+
+export function Header(props: Header)
+{
+    return <h1>{props.title}</h1>
 }
