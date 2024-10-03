@@ -4,6 +4,7 @@ import './index.css'
 import DrinkRecipes from './DrinkRecipes.tsx'
 import { Switch } from './Switch.tsx'
 import { ColorChanger } from './ColorChanger.tsx'
+import { TextFunctions } from './TextFunctions.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -13,5 +14,6 @@ createRoot(document.getElementById('root')!).render(
     <hr />
     <ColorChanger />
     <hr />
+    <TextFunctions />
   </StrictMode>,
 )
