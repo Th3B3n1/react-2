@@ -4,7 +4,7 @@ import { Header } from './Header'
 import { Recipe } from './Recipe';
 import { Footer } from './Footer';
 
-function DrinkRecipes() 
+export function DrinkRecipes() 
 {
   const [number, setNumber] = useState(1);
   const [numbers] = useState([0, 2, 4, 6, 8]);
